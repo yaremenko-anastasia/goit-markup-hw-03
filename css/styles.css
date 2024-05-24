@@ -40,6 +40,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-right: auto;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 a:hover, 
@@ -83,7 +85,7 @@ max-width: 496px;
     display: flex;
     flex-direction: column ;
     align-items: center;
-    background-color: #2E2F42;    
+        
 }
 
 .btn-title {
@@ -246,8 +248,7 @@ display: flex;
 gap: 40px;
 padding-left: 0; 
 margin: 0;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 
 .header-social-list {
@@ -335,6 +336,7 @@ width: 1440px;
 .main-section {
     padding-top: 188px;
     padding-bottom: 188px;
+    background-color: #2E2F42;
 }
 
 .header-border {
