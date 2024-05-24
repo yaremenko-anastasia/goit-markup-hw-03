@@ -209,7 +209,7 @@ margin-left: 16px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    padding-bottom: 100px;
+    max-width: 264px
     
 }
 
@@ -227,12 +227,12 @@ margin-left: 16px;
     overflow: hidden;
   }
 
-footer {
+  .footer-main{
     background-color:  #2e2f42;
-    width: 1440px;
-    padding-left: 156px;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 
 .logo-studio-footer {
     color: #f4f4fd;
@@ -331,11 +331,6 @@ border-right: 1px solid #e7e9fc;
 padding: 32px 16px;
 }
 
-.footer-page {
-
-display: flex;
-width: 1440px;
-}
 
 .main-section {
     padding-top: 188px;
@@ -366,4 +361,18 @@ width: 1440px;
 .portfolio-section {
     padding-top: 120px; 
     padding-bottom: 120px; 
+}
+
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+padding-top: 100px;
+padding-bottom: 100px;
+display: inline-block; 
+margin-bottom: 16px;
 }
