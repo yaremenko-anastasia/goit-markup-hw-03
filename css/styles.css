@@ -151,6 +151,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
+margin-top: 32px;
 }
 
 .about-team {
@@ -159,6 +161,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 32px;
 }
 
 .title-portfolio {
@@ -167,6 +170,10 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-top: 32px;
+margin-right: auto;
+margin-bottom: 8px;
+margin-left: 16px;
 }
 
 .portfolio-title {
@@ -186,6 +193,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 32px;
+margin-left: 16px;
 }
 
 .footer-text {
@@ -193,6 +202,9 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
+    padding-bottom: 100px;
+    
 }
 
 .visually-hidden {
@@ -207,6 +219,9 @@ overflow: hidden;
 
 .page-footer {
     background-color:  #2e2f42;
+    width: 1440px;
+    padding-left: 156px;
+    padding-top: 100px;
 }
 
 .logo-studio-footer {
@@ -218,7 +233,7 @@ overflow: hidden;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    padding-left: 156px;
+  
    
 }
 
@@ -226,12 +241,13 @@ overflow: hidden;
 display: flex;
 gap: 40px;
 margin-right: auto;
+
 }
 
 .header-social-list {
     display: flex;
     gap: 40px;
-    margin-right: 156px;
+   
 }
 
 img {
@@ -250,9 +266,8 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-left: 156px;
-    padding-right: 156px;
 
+ 
 }
 
 .features-item {
@@ -263,8 +278,8 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-left: 156px;
-    padding-right: 156px;
+  
+    padding-bottom: 120px;
 }
 
 .container {
@@ -282,6 +297,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+align-items: flex-start;
+justify-content: center;
+
 }
 
 .portfolio-item-list {
@@ -289,6 +307,18 @@ img {
 }
 
 .portfolio-border {
-    border: 1px solid #e7e9fc;
-width: 360px;
+    border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+}
+
+.footer-page {
+
+display: flex;
+width: 1440px;
+}
+
+.logo-footer {
+   
 }
