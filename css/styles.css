@@ -21,10 +21,16 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
+}
+
+.logo-vidstup{
+    
 }
 
 .logo-studio {
     color: #2e2f42;
+    
 }
 
 .navigator-list {
@@ -64,7 +70,7 @@ a:focus
 }
 
 .title-main {
-padding-top: 188px;
+
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -77,10 +83,7 @@ max-width: 496px;
     display: flex;
     flex-direction: column ;
     align-items: center;
-    width: auto;
-    background-color: #2E2F42;
-    margin-bottom: 120px;
-    
+    background-color: #2E2F42;    
 }
 
 .btn-title {
@@ -96,7 +99,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-margin-bottom: 188px;
+min-width: 169px
 }
 
 .btn-title:hover,
@@ -243,7 +246,8 @@ display: flex;
 gap: 40px;
 padding-left: 0; 
 margin: 0;
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-social-list {
@@ -328,8 +332,9 @@ display: flex;
 width: 1440px;
 }
 
-.logo-footer {
-   
+.main-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .header-border {
