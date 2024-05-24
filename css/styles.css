@@ -214,14 +214,18 @@ margin-left: 16px;
 }
 
 .visually-hidden {
-
-margin: -1px;
-
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
-}
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 footer {
     background-color:  #2e2f42;
@@ -282,7 +286,7 @@ margin: 0;
 }
 
 .features-item {
-    width: calc((100% - 72x) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-list {
@@ -341,4 +345,9 @@ width: 1440px;
 
 .header-border {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.features-section{
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
