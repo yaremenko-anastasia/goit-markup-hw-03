@@ -285,7 +285,10 @@ img {
 }
 
 .portfolio-item-list {
-    border: 1px solid #e7e9fc;
     background: #fff;
-    
+}
+
+.portfolio-border {
+    border: 1px solid #e7e9fc;
+width: 360px;
 }
