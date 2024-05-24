@@ -33,6 +33,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-right: auto;
 }
 
 a:hover, 
@@ -217,7 +218,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-.page-footer {
+footer {
     background-color:  #2e2f42;
     width: 1440px;
     padding-left: 156px;
@@ -240,13 +241,16 @@ overflow: hidden;
 .header-menu-list {
 display: flex;
 gap: 40px;
-margin-right: auto;
+padding-left: 0; 
+margin: 0;
 
 }
 
 .header-social-list {
     display: flex;
     gap: 40px;
+    padding-left: 0; 
+margin: 0;
    
 }
 
@@ -266,6 +270,8 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
+    padding-left: 0; 
+margin: 0;
 
  
 }
@@ -278,7 +284,8 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-  
+    padding-left: 0; 
+    margin: 0;
     padding-bottom: 120px;
 }
 
@@ -299,6 +306,8 @@ img {
     gap: 48px 24px;
 align-items: flex-start;
 justify-content: center;
+padding-left: 0; 
+margin: 0;
 
 }
 
