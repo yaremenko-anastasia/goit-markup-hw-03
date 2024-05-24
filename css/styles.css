@@ -55,6 +55,9 @@ a:focus
 
 .features {
     color: #2e2f42;
+    width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
  
 }
 
@@ -238,9 +241,7 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-    width: 1158px; 
-    padding: 0 15px; 
-    margin: 0 auto;
+
 }
 
 .features-item {
